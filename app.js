@@ -41,7 +41,7 @@ function Game(player1, player2){
     for (let k = 0; k < 9; k++){
         let div = document.createElement("div");
         this.boxes.append(div);
-        div.style.cssText = "width : 200px; height : 200px; position : relative; background : transparent; border : 8px solid rgb(0,0,0);";
+        div.style.cssText = "width : 30%; height : 30%;200px; position : relative; background : transparent; border : 8px solid rgb(0,0,0);";
         div.addEventListener("click", (event)=>{
             this.handleInput(event);
         })
