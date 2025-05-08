@@ -72,7 +72,7 @@ form button:hover, .resultscreen button:hover{
     transform: translate(-50%, -50%);
     padding: 20px;
     font-size: 35px;
-    width: 500px;
+    width: min(500px, 90vw);
     display: flex;
     justify-content: center;
     align-items: center;
